@@ -1,7 +1,6 @@
-# Intro
+# Myrtle presentation
 
-This repo contains slides, exercises and cheat-sheets for several talks and
-courses.
+This repo contains slides for my end of internship presentation at myrtle.ai
 
 To build everything:
 
@@ -9,8 +8,3 @@ To build everything:
 nix-build
 ```
 
-## introduction
-
-Overview of the Myrtle codebase
-
-- Slides
