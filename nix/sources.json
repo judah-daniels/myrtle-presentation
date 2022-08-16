@@ -1,0 +1,63 @@
+{
+    "clash-compiler": {
+        "branch": "nix-0.999",
+        "description": "CAES Language for Synchronous Hardware",
+        "homepage": "http://www.clash-lang.org/",
+        "owner": "basile-henry",
+        "repo": "clash-compiler",
+        "rev": "76182a5f32730eff24cc0913f0c361f2c19d650e",
+        "sha256": "1avp30nfif31f7hkm5ws98nsx181zff0gzzzwz47bqjzhj132jbv",
+        "type": "tarball",
+        "url": "https://github.com/basile-henry/clash-compiler/archive/76182a5f32730eff24cc0913f0c361f2c19d650e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "099f9ea92169c2edbc3ca33313b68f5e9686e800",
+        "sha256": "1rqaw2r5wbbfpbxjgwrwzf619la1iqvzp3mhq1mfz9vk4hjd3335",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/099f9ea92169c2edbc3ca33313b68f5e9686e800.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-19.03",
+        "description": "Nixpkgs/NixOS branches that track the Nixpkgs/NixOS channels",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "85f820d6e41a301a06a44cd72430cce0b3e4e5f5",
+        "sha256": "0iwn8lrhdldgdgz5rg7k8h5wavxw5y73j453ji7z84z805falfwi",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/85f820d6e41a301a06a44cd72430cce0b3e4e5f5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "nixos-19.03"
+    },
+    "revealjs": {
+        "branch": "3.8.0",
+        "description": "The HTML Presentation Framework",
+        "homepage": "https://revealjs.com",
+        "owner": "hakimel",
+        "repo": "reveal.js",
+        "rev": "3da09f1fef1fa3c140d2daa5bdee2a32683dd964",
+        "sha256": "14cva2hxdv4gxpz2a996qs8xhxffw97a90gkz2mmgdczh1kyn1sc",
+        "type": "tarball",
+        "url": "https://github.com/hakimel/reveal.js/archive/3da09f1fef1fa3c140d2daa5bdee2a32683dd964.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "yoda": {
+        "branch": "0.1.3.0",
+        "description": "A simple combinator library",
+        "homepage": null,
+        "owner": "zenzike",
+        "repo": "yoda",
+        "rev": "fb3517e6de9187ece52d3fd0485d5564ac2b0ae8",
+        "sha256": "115qjyi77nq52k2d9777wwbwilcaiq7y79yv08mdnikk9mrhb212",
+        "type": "tarball",
+        "url": "https://github.com/zenzike/yoda/archive/fb3517e6de9187ece52d3fd0485d5564ac2b0ae8.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
