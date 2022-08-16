@@ -102,6 +102,40 @@ Locking inhibits this :(
 
 ## Solution
 
+Each register described by the instructions is actually backed by a bank of registers
+
+```
+Instr   Reg
+write   r0
+read    r0
+write   r0
+read    r0
+```
+becomes
+```
+Instr   Reg  Bank
+write   r0   b0
+read    r0   b0
+write   r0   b1
+read    r0   b1
+```
+
+## Implementation
+
+```Haskell
+registerBanker
+  :: forall registers instr instr' domain bankSize
+  .  ( 1 <= registers
+     , 1 <= bankSize, .. )
+  => SNat bankSize
+  -> SNat registers
+  -> ( instr -> Either instr' (Index registers, "read release" ::: Bool))
+  -> (instr -> Index bankSize -> instr')
+  -> Circuit'
+  ( "input instruction"   ::: DF domain instr)
+  ( "renamed instruction" ::: DF domain instr')
+```
+
 ## Instruction flow
 
 ![](./controldataflow.png){width=360}
